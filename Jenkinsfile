@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Build') { 
             steps {
-                sh './pas.sh' 
+                sh 'node --version' 
             }
         }
     }
